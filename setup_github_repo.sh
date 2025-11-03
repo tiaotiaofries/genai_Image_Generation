@@ -1,13 +1,13 @@
 #!/bin/bash
-# GitHub Repository Setup Script for genai_Image_Generation
+# Assignment 3: Image Generation - GitHub Repository Setup Script
 # Run this script after creating the repository on GitHub
 
-echo "🚀 Setting up genai_Image_Generation GitHub Repository"
-echo "=================================================="
+echo "🚀 Assignment 3: Image Generation - GitHub Repository Setup"
+echo "============================================================"
 
 # Repository details
 REPO_NAME="genai_Image_Generation"
-REPO_DESCRIPTION="GenAI Image Generation - GAN Implementation for MNIST Handwritten Digits"
+REPO_DESCRIPTION="Assignment 3: Image Generation - GAN Implementation for MNIST Handwritten Digits"
 
 echo "📋 Repository Information:"
 echo "   Name: $REPO_NAME"
@@ -29,7 +29,7 @@ echo ""
 echo "1️⃣ CREATE GITHUB REPOSITORY:"
 echo "   • Go to https://github.com/new"
 echo "   • Repository name: genai_Image_Generation"
-echo "   • Description: GenAI Image Generation - GAN Implementation for MNIST Handwritten Digits"
+echo "   • Description: Assignment 3: Image Generation - GAN Implementation for MNIST Handwritten Digits"
 echo "   • Set to Public"
 echo "   • DO NOT initialize with README (we already have one)"
 echo "   • Click 'Create repository'"
