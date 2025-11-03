@@ -1,11 +1,11 @@
-# Assignment 3: GAN Image Generation
+# GenAI Image Generation
 
 ## Overview
-This repository contains the implementation of a Generative Adversarial Network (GAN) for generating handwritten digits using the MNIST dataset, as part of Assignment 3.
+This repository contains the implementation of a Generative Adversarial Network (GAN) for generating handwritten digits using the MNIST dataset, as part of Assignment 3: GAN Image Generation.
 
 ## Project Structure
 ```
-assignment3_gan_mnist/
+genai_Image_Generation/
 ├── README.md                    # This file
 ├── requirements.txt             # Python dependencies
 ├── gan_model.py                 # GAN architecture implementation
@@ -74,4 +74,4 @@ curl -X POST http://localhost:8001/generate_digits \
 - [x] Well-organized code with correct architecture
 
 ## Author
-Assignment 3 - GAN Implementation for MNIST Digit Generation
+GenAI Image Generation - GAN Implementation for MNIST Digit Generation
