@@ -1,7 +1,7 @@
-# GenAI Image Generation
+# Assignment 3: Image Generation
 
 ## Overview
-This repository contains the implementation of a Generative Adversarial Network (GAN) for generating handwritten digits using the MNIST dataset, as part of Assignment 3: GAN Image Generation.
+This repository contains the implementation of a Generative Adversarial Network (GAN) using the MNIST dataset.
 
 ## Project Structure
 ```
@@ -17,9 +17,9 @@ genai_Image_Generation/
 └── tests/                       # Test scripts
 ```
 
-## Assignment Requirements
+## Assignment Outline
 
-### Part 1: GAN Architecture Implementation
+### GAN Architecture Implementation
 Implementation of GAN with specified architecture:
 
 **Generator:**
@@ -36,11 +36,10 @@ Implementation of GAN with specified architecture:
 - LeakyReLU(0.2) activations, BatchNorm2D
 - Flatten and Linear layer for single output (real/fake probability)
 
-### Part 2: Model Deployment
+### Model Deployment
 - Train GAN on MNIST dataset
 - Integrate with FastAPI from Module 6 
 - Add endpoint for digit generation
-- Commit code to GitHub
 
 ## Installation & Usage
 
@@ -66,12 +65,3 @@ curl -X POST http://localhost:8001/generate_digits \
   -H 'Content-Type: application/json' \
   -d '{"num_digits": 10}'
 ```
-
-## Grading Criteria
-- [x] Code committed to GitHub
-- [x] Docker deployment with FastAPI server
-- [x] API successfully generates digits
-- [x] Well-organized code with correct architecture
-
-## Author
-GenAI Image Generation - GAN Implementation for MNIST Digit Generation
